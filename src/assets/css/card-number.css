@@ -1,0 +1,12 @@
+
+.card-number {
+  width: 300px;
+  height: 120px;
+  text-align: start;
+  border: none;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 1rem;
+}

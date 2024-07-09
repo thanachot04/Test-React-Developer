@@ -1,0 +1,81 @@
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid gray;
+}
+
+.card-style {
+  position: relative;
+}
+.shape-style {
+  position: absolute;
+}
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+.rotate-90 {
+  transform: rotate(-90deg);
+}
+.rotate180 {
+  transform: rotate(180deg);
+}
+.card-hover {
+  border: none;
+}
+.card-hover:hover {
+  background-color: #ffa200;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+}
+/* circle', 'oval', 'trapezium', 'rectangle', 'Rhombus */
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.oval {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.trapezium {
+  width: 100px;
+  height: 50px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 50px solid gray;
+  border-top: 0px solid gray;
+}
+
+.rectangle {
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+}
+.rhombus {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background-color: gray;
+}
+.tip {
+  position: absolute;
+  padding: 0 1rem;
+  border-radius: 25px;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:  #6eda78 ;
+}

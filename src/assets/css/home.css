@@ -1,0 +1,26 @@
+.home {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-style {
+  display: flex;
+  gap: 1rem;
+}
+.selectLang{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-back{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,16 @@
+{
+    "trans": {
+      "title": {
+        "title1": "Test 1",
+        "title2": "Test 2",
+        "title3": "Test 3"
+      },
+      "description": {
+        "description1": "Layout & Style",
+        "description2": "Connect API",
+        "description3": "Form & Table"
+      },
+      "KEY_NAME": "Translate this key as needed"
+    }
+  }
+  
