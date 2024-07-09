@@ -1,4 +1,4 @@
-import { Card, Col, Layout, Row } from "antd";
+import { Card, Col, Layout, Row, Typography } from "antd";
 import '../assets/css/number1.css';
 import { Content } from "antd/es/layout/layout";
 import { useEffect, useState } from "react";
@@ -7,13 +7,14 @@ import { useTranslation } from 'react-i18next';
 // import '../assets/css/number1.css';
 
 
-
+const { Title, Text, Paragraph, Link } = Typography;
 
 const Number1: React.FC = () => {
 
     // interface Items {
     //     item: string[];
     // }
+    const { Title, Text, Paragraph, Link } = Typography;
     const [items, setItems] = useState<string[]>(['square', 'circle', 'oval', 'trapezium', 'rectangle', 'rhombus']);
     const [isUpDown, setIsUpDown] = useState<boolean>(true);
     const { t } = useTranslation();
@@ -72,6 +73,8 @@ const Number1: React.FC = () => {
 
     return (
         <Layout className="layout" style={{ background: 'transparent', marginLeft: '200px', marginRight: '200px' }}>
+            {/* <Typography  className="header-name">sds</Typography> */}
+            <Title level={2} className="header-name">{t('Layout & Style')}</Title>
             <Content style={{ padding: '0 50px' }}>
                 <Row justify="center" gutter={16}>
                     <Col span={6}>

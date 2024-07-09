@@ -5,32 +5,24 @@ import { Resource } from "i18next";
 const resources: Resource = {
     en: {
         translation: {
-            "title": {
-                "title1": "Test 1",
-                "title2": "Test 2",
-                "title3": "Test 3"
-            },
-            "description": {
-                "description1": "Layout & Style",
-                "description2": "Connect API",
-                "description3": "Form & Table"
-            },
+            "Test 1": "Test 1",
+            "Test 2": "Test 2",
+            "Test 3": "Test 3",
+            "Layout & Style": "Layout & Style",
+            "Connect API": "Connect API",
+            "Form & Table": "Form & Table",
             "Move Shape": "Move Shape",
             "Move Position": "Move Position"
         }
     },
     th: {
         translation: {
-            "title": {
-                "title1": "แบบทดสอบที่ 1",
-                "title2": "แบบทดสอบที่ 2",
-                "title3": "แบบทดสอบที่ 3"
-            },
-            "description": {
-                "description1": "การจัดการหน้าเว็บ",
-                "description2": "การเชื่อมต่อ API",
-                "description3": "การจัดการหน้าฟฟอร์ม"
-            },
+            "Test 1": "แบบทดสอบที่ 1",
+            "Test 2": "แบบทดสอบที่ 2",
+            "Test 3": "แบบทดสอบที่ 3",
+            "Layout & Style": "การจัดการหน้าเว็บ",
+            "Connect API": "การเชื่อมต่อ API",
+            "Form & Table": "การจัดการหน้าฟฟอร์ม",
             "Move Shape": "เลื่อนรูปแบบ",
             "Move Position": "เปลี่ยนตำแหน่ง"
         }

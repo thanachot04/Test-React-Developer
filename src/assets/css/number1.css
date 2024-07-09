@@ -1,3 +1,9 @@
+.header-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+}
 .triangle-up {
   width: 0;
   height: 0;
@@ -77,5 +83,5 @@
   bottom: -1.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color:  #6eda78 ;
+  background-color: #6eda78;
 }

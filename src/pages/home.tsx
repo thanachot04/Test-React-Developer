@@ -36,20 +36,20 @@ const Home: React.FC = () => {
         setCardProps([
             {
                 type: 'title1',
-                title: 'title.title1',
-                description: 'description.description1',
+                title: 'Test 1',
+                description: 'Layout & Style',
                 selectCard: selectCard
             },
             {
                 type: 'title2',
-                title: 'title.title2',
-                description: 'description.description2',
+                title: 'Test 2',
+                description: 'Connect API',
                 selectCard: selectCard
             },
             {
                 type: 'title3',
-                title: 'title.title3',
-                description: 'description.description3',
+                title: 'Test 3',
+                description: 'Form & Table',
                 selectCard: selectCard
             },
         ]);
@@ -72,8 +72,8 @@ const Home: React.FC = () => {
                     { value: 'EN', label: <span>EN</span> },
                     { value: 'TH', label: <span>TH</span> }]} />
 
-            <Button type="primary" className="btn-back" onClick={() => selectCard('home')}>Home</Button>
-
+            {/* <Button type="primary" className="btn-back" onClick={() => selectCard('home')}>Home</Button> */}
+                   
             {renderComponent === 'home' && <div className="card-style">
                 {cardProps.map((card, index) => (
                     <CardNumber key={index} type={card.type} title={card.title} description={card.description} selectCard={selectCard} />
