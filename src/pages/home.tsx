@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { title } from 'process';
 import { useTranslation } from 'react-i18next';
 import Number1 from './number1';
-import Number3 from './number2';
+import Number3 from './number3';
 import { Button, Select } from "antd";
 import i18n from '../components/i18n';
 
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
                     { value: 'EN', label: <span>EN</span> },
                     { value: 'TH', label: <span>TH</span> }]} />
 
-            {/* <Button type="primary" className="btn-back" onClick={() => selectCard('home')}>Home</Button> */}
+            <Button type="primary" className="btn-back" onClick={() => selectCard('home')}>Home</Button>
                    
             {renderComponent === 'home' && <div className="card-style">
                 {cardProps.map((card, index) => (

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card-style {
@@ -21,6 +21,9 @@
 }
 .btn-back{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 3rem;
+  right: 0;
+  color:black;
+  background-color: white;
+
 }

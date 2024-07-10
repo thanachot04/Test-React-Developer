@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 // import '../assets/css/number1.css';
 
 
-const { Title, Text, Paragraph, Link } = Typography;
 
 const Number1: React.FC = () => {
 
